@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const getInput = () => {
-  return fs.readFileSync('/dev/stdin').toString().split('\n').filter(line => line !== '');
+  return fs.readFileSync('/dev/stdin').toString().split('\n');
 }
 
 const getRawInput = () => {
