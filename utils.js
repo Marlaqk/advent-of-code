@@ -8,6 +8,14 @@ const getRawInput = () => {
   return fs.readFileSync('/dev/stdin').toString();
 }
 
+const getCharGridInput = () => {
+  return getInput().map(rowStr => [...rowStr]);
+}
+
+const getNumberGridInput = () => {
+  return getCharGridInput().map(row => row.map(v => Number(v)))
+}
+
 const getIntInput = () => {
   return getInput().map(line => Number(line));
 }
@@ -43,6 +51,8 @@ const getNeighbours = (grid, y_pos, x_pos) => {
 module.exports = {
   getInput,
   getRawInput,
+  getCharGridInput,
+  getNumberGridInput,
   getIntInput,
   permute,
   deepCopyMap,
