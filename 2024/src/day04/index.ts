@@ -59,10 +59,8 @@ const part2 = (rawInput: string) => {
     let w = '';
     for(let change of blibla) {
       w += extractFromGrid(grid, start, change) ?? '';
-      // console.log(w)
     }
     if (w != 'SMSM' && w != 'MSMS' && w.match(/S/g)?.length === 2 && w.match(/M/g)?.length == 2) {
-      console.log(w)
       return count + 1;
     }
     return count;
