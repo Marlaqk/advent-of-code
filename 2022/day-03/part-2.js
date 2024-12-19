@@ -5,7 +5,6 @@ let sum = 0;
 for(let i = 0; i < INPUT.length; i += 3) {
     let c = findCommonChar(INPUT[i], INPUT[i+1], INPUT[i+2]);
     sum += c.charCodeAt(0) < 96 ? c.charCodeAt(0) - 38 : c.charCodeAt(0) - 96;
-    console.log(i)
 }
 
 console.log(sum)

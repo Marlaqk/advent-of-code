@@ -20,6 +20,13 @@ const permute = input => {
   return array.reduce(permute, []);
 };
 
+const deepCopyMap = map => {
+  return new Map(JSON.parse(
+    JSON.stringify(Array.from(map))
+  ));
+  
+}
+
 const sum = arr => arr.reduce((p, c) => p + c, 0);
 
 const getNeighbours = (grid, y_pos, x_pos) => {
@@ -38,6 +45,7 @@ module.exports = {
   getRawInput,
   getIntInput,
   permute,
+  deepCopyMap,
   sum,
   getNeighbours,
 };
