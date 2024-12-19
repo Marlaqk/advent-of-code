@@ -1,5 +1,4 @@
 import run from "aocrunner";
-import { match } from "assert";
 
 const parseInput = (rawInput: string) => rawInput;
 

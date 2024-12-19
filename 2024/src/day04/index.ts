@@ -34,7 +34,6 @@ const part1 = (rawInput: string) => {
       if (w === 'XMAS') {
         c++;
       }
-      // console.log(w)
     }
     return count + c;
   }, 0);
@@ -55,12 +54,12 @@ const part2 = (rawInput: string) => {
   ];
 
   return wordStarts.reduce((count, start) => {
-    let c = 0;
     let w = '';
     for(let change of blibla) {
       w += extractFromGrid(grid, start, change) ?? '';
     }
     if (w != 'SMSM' && w != 'MSMS' && w.match(/S/g)?.length === 2 && w.match(/M/g)?.length == 2) {
+      console.log(w)
       return count + 1;
     }
     return count;
