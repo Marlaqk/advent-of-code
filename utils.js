@@ -48,6 +48,18 @@ export const getNeighbours = (grid, y_pos, x_pos) => {
   return neighbours;
 }
 
+export const getNeighboursIndex = (grid, y_pos, x_pos) => {
+  const neighbours = [];
+  for (let y = Math.max(0, y_pos - 1); y <= Math.min(y_pos + 1, grid.length - 1); y++) {
+    for (let x = Math.max(0, x_pos - 1); x <= Math.min(x_pos + 1, grid[y].length - 1); x++) {
+      if (x == x_pos && y == y_pos) continue;
+      neighbours.push({y,x})
+    }
+  }
+  return neighbours;
+}
+
+
 export class Node {
 
   constructor(value) {
