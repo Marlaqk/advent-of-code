@@ -57,7 +57,7 @@ export const getNeighboursIndex = (grid, y_pos, x_pos) => {
   for (let y = Math.max(0, y_pos - 1); y <= Math.min(y_pos + 1, grid.length - 1); y++) {
     for (let x = Math.max(0, x_pos - 1); x <= Math.min(x_pos + 1, grid[y].length - 1); x++) {
       if (x == x_pos && y == y_pos) continue;
-      neighbours.push({y,x})
+      neighbours.push({ y, x })
     }
   }
   return neighbours;
@@ -84,7 +84,7 @@ export class Node {
   visitLeft(times = 1) {
     let node = this;
     for (let i = 0; i < times; i++) {
-        node = node.left
+      node = node.left
     }
     return node;
   }
@@ -99,3 +99,18 @@ export class Node {
   }
 
 }
+
+export function lcm(arr) {
+  let ans = arr[0];
+  for (let i = 1; i < arr.length; i++)
+    ans = (((arr[i] * ans)) /
+      (gcd(arr[i], ans)));
+
+  return ans;
+}
+
+export function gcd(a, b) {
+  if (b == 0)
+    return a;
+  return gcd(b, a % b);
+} 
