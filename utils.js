@@ -37,6 +37,10 @@ export const deepCopyMap = map => {
 
 export const sum = arr => arr.reduce((p, c) => p + c, 0);
 
+export const multiply = arr => arr.reduce((a, b) => a * b);
+
+export const getNums = text => text.match(/(\d+)/g).map(v => Number(v));
+
 export const getNeighbours = (grid, y_pos, x_pos) => {
   const neighbours = [];
   for (let y = Math.max(0, y_pos - 1); y <= Math.min(y_pos + 1, grid.length - 1); y++) {
