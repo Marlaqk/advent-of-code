@@ -69,37 +69,37 @@ npm start 1
 
 ```
 Day 01
-Time part 1: 1.024ms
-Time part 2: 0.677ms
-Both parts: 1.701ms
+Time part 1: 0.818ms
+Time part 2: 0.509ms
+Both parts: 1.327ms
 ```
 
 ```
 Day 02
-Time part 1: 0.953ms
-Time part 2: 1.816ms
-Both parts: 2.769ms
+Time part 1: 0.861ms
+Time part 2: 1.648ms
+Both parts: 2.509ms
 ```
 
 ```
 Day 03
-Time part 1: 0.449ms
-Time part 2: 0.223ms
-Both parts: 0.672ms
+Time part 1: 0.406ms
+Time part 2: 0.202
+Both parts: 0.608ms
 ```
 
 ```
 Day 04
-Time part 1: 5.179ms
-Time part 2: 14.065ms
-Both parts: 19.244ms
+Time part 1: 4.119ms
+Time part 2: 2.780ms
+Both parts: 6.899ms
 ```
 
 ```
 Day 05
-Time part 1: 1.861ms
-Time part 2: 0.416ms
-Both parts: 2.277ms
+Time part 1: 1.951ms
+Time part 2: 0.396ms
+Both parts: 2.347ms
 ```
 
 ```
@@ -243,8 +243,8 @@ Both parts: -
 ```
 
 ```
-Total stars: 6/50
-Total time: 21.616ms
+Total stars: 2/50
+Total time: 1.327ms
 ```
 
 <!--/RESULTS-->
