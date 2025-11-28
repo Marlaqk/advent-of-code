@@ -127,18 +127,18 @@
           }
         },
         {
-          "title": null,
+          "title": "I Heard You Like Registers",
           "part1": {
-            "solved": false,
-            "result": null,
+            "solved": true,
+            "result": "4066",
             "attempts": [],
-            "time": null
+            "time": 0.934167
           },
           "part2": {
-            "solved": false,
-            "result": null,
+            "solved": true,
+            "result": "4829",
             "attempts": [],
-            "time": null
+            "time": 0.733166
           }
         },
         {

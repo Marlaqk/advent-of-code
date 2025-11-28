@@ -18,7 +18,7 @@
 [![Day](https://badgen.net/badge/05/%E2%98%85%E2%98%85/green)](day05)
 [![Day](https://badgen.net/badge/06/%E2%98%85%E2%98%85/green)](day06)
 [![Day](https://badgen.net/badge/07/%E2%98%85%E2%98%85/green)](day07)
-![Day](https://badgen.net/badge/08/%E2%98%86%E2%98%86/gray)
+[![Day](https://badgen.net/badge/08/%E2%98%85%E2%98%85/green)](day08)
 ![Day](https://badgen.net/badge/09/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/10/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/11/%E2%98%86%E2%98%86/gray)
@@ -91,16 +91,16 @@ Both parts: 6.644ms
 
 ```
 Day 07 - Recursive Circus
-Time part 1: 1.317ms
-Time part 2: 3.077ms
-Both parts: 4.395ms
+Time part 1: 1.183ms
+Time part 2: 2.146ms
+Both parts: 3.329ms
 ```
 
 ```
-Day 08
-Time part 1: -
-Time part 2: -
-Both parts: -
+Day 08 - I Heard You Like Registers
+Time part 1: 0.934ms
+Time part 2: 0.733ms
+Both parts: 1.667ms
 ```
 
 ```
@@ -223,8 +223,8 @@ Both parts: -
 ```
 
 ```
-Total stars: 13/50
-Total time: 107.957ms
+Total stars: 15/50
+Total time: 108.559ms
 ```
 
 <!--/RESULTS-->
