@@ -10,7 +10,7 @@
 
 <!--SOLUTIONS-->
 
-[![Year](https://badgen.net/badge/2017/★★☆★★★⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒/gray?icon=typescript&labelColor=blue&scale=1.3)](src/2017)  
+[![Year](https://badgen.net/badge/2017/★★☆★★★★⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒⭒/gray?icon=typescript&labelColor=blue&scale=1.3)](src/2017)  
 
 <!--/SOLUTIONS-->
 
@@ -44,8 +44,8 @@ npm start 2023 1
 
 ```
 Year 2017
-Total stars: 11/50
-Total time: 103.563ms
+Total stars: 13/50
+Total time: 107.957ms
 ```
 
 <!--/RESULTS-->

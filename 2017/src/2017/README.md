@@ -17,7 +17,7 @@
 [![Day](https://badgen.net/badge/04/%E2%98%85%E2%98%85/green)](day04)
 [![Day](https://badgen.net/badge/05/%E2%98%85%E2%98%85/green)](day05)
 [![Day](https://badgen.net/badge/06/%E2%98%85%E2%98%85/green)](day06)
-![Day](https://badgen.net/badge/07/%E2%98%86%E2%98%86/gray)
+[![Day](https://badgen.net/badge/07/%E2%98%85%E2%98%85/green)](day07)
 ![Day](https://badgen.net/badge/08/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/09/%E2%98%86%E2%98%86/gray)
 ![Day](https://badgen.net/badge/10/%E2%98%86%E2%98%86/gray)
@@ -90,10 +90,10 @@ Both parts: 6.644ms
 ```
 
 ```
-Day 07
-Time part 1: -
-Time part 2: -
-Both parts: -
+Day 07 - Recursive Circus
+Time part 1: 1.317ms
+Time part 2: 3.077ms
+Both parts: 4.395ms
 ```
 
 ```
@@ -223,8 +223,8 @@ Both parts: -
 ```
 
 ```
-Total stars: 11/50
-Total time: 103.563ms
+Total stars: 13/50
+Total time: 107.957ms
 ```
 
 <!--/RESULTS-->
